@@ -1,4 +1,4 @@
-## Analysis Notes.md
+## Analysis Notes
 
 - Found 5 failed login attempts from IP `192.168.1.50`
 - User `root` was targeted multiple times
