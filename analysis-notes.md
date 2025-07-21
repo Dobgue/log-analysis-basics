@@ -1,7 +1,11 @@
 ## Analysis Notes
+## Brute Force Detection
 
-- Found 5 failed login attempts from IP `192.168.1.50`
-- User `root` was targeted multiple times
-- Possible brute-force pattern
+The IP `192.168.1.15` attempted 5 failed logins in a short time using the user `root`.
 
-→ Recommendation: Block IP and check related logs.
+### 🎯 Conclusion:
+- Possible brute-force attack
+- Should be blocked and investigated further
+
+### 🔧 Tool Used:
+- Custom Python script (`parse_logs.py`)
